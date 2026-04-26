@@ -157,4 +157,4 @@ Or install a better terminal like:
 
 ## Author
 
-Minh Duc
+[Ndlm02](https://zyo.lol/deadwithoutlove)
