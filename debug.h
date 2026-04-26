@@ -449,7 +449,7 @@ void debug_out(const char* names, T&& value, Args&&... args) {
     }
 }
 
-// thêm line number
+// line number
 #define dbg(...) \
     cerr << DBG_YELLOW << "[Line " << __LINE__ << "] " << DBG_RESET, \
     debug_out(#__VA_ARGS__, __VA_ARGS__)
