@@ -42,7 +42,13 @@ Include the header:
 Enable debug locally:
 
 ```cpp
-#define LOCAL
+#ifdef LOCAL
+#include "debug.h"
+#else
+#define dbg(...)
+#define dbg_range(...)
+#define dbg_matrix(...)
+#endif
 ```
 
 Example:
